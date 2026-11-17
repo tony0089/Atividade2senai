@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedido interativo da equipe</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+  <h1>Pedido interativo da equipe</h1>
+
+  <!-- aqui os cartões vão aparecer (o JavaScript coloca eles aqui) -->
+  <div id="lista-produtos"></div>
+
+  <div id="resumo">
+    <h2>Seu pedido</h2>
+    <p>Quantidade de itens: <strong id="quantidade">0</strong></p>
+    <p>Total: <strong id="total">R$ 0,00</strong></p>
+    <p id="desconto-aviso"></p>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
